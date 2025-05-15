@@ -1,6 +1,6 @@
 module github.com/IBM/sarama/examples/txn_producer
 
-go 1.21
+go 1.23.0
 
 require (
 	github.com/IBM/sarama v1.45.0
@@ -21,10 +21,10 @@ require (
 	github.com/jcmturner/gofork v1.7.6 // indirect
 	github.com/jcmturner/gokrb5/v8 v8.4.4 // indirect
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
-	github.com/klauspost/compress v1.17.11 // indirect
+	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
-	golang.org/x/crypto v0.32.0 // indirect
-	golang.org/x/net v0.34.0 // indirect
+	golang.org/x/crypto v0.36.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
 )
 
 replace github.com/IBM/sarama => ../../
